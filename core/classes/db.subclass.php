@@ -15,8 +15,8 @@ class db extends core {
 		if($this -> conn -> connect_errno) error($this -> conn -> connect_errno, $this -> conn -> connect_error);
 	}
 
-	public function insert($keys, $values) {
-
+	// insert new row
+	public function insertRow($keys, $values) {
 		// query
 		$this -> query = "INSERT INTO users (id, user, password) VALUES (?, ?, ?)";
 
@@ -27,6 +27,7 @@ class db extends core {
 		try {
 			if(!$stmt) throw new Exception($this -> conn -> errno.": ".$this -> conn -> error);
 		} catch(Exception $e) {
+			// output possible errors
 			$this -> error(null, $e -> getMessage());
 		}
 
@@ -43,10 +44,26 @@ class db extends core {
 		$this -> query = null;
 	}
 
-	public function getData() {
-		
+	// get all data from table
+	public function getAllDataFromTable($table) {
+		// query
+		$this -> query = "SELECT * FROM ".$table;
+
+		// call data
+		try {
+			if($result = $this -> conn -> query($this -> query)) {
+				while ($array = $result -> fetch_assoc()) {
+					echo 'id = '.$array['id'].'<br />';
+					echo 'user = '.$array['user'].'<br />';
+					echo 'password = '.$array['password'].'<br /><br />';
+				}
+			} else throw new Exception($this -> conn -> errno.": ".$this -> conn -> error);
+		} catch(Exception $e) {
+			// output possible errors
+			$this -> error(null, $e -> getMessage());
+		}
 	}
-	
+
 	public function test($msg) {
 		echo $msg;
 	}
