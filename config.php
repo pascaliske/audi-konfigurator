@@ -23,4 +23,9 @@
 	if(!defined("DB_NAME")) {
 		define("DB_NAME", "test");
 	}
+	
+	// DEBUGMODE
+	if(!defined("DEBUGMODE")) {
+		define("DEBUGMODE", true);
+	}
 ?>
