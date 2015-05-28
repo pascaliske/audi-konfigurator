@@ -44,6 +44,10 @@
 			<div id="preview">
 				<?php
 					$db -> test('hallo');
+
+					echo "<br /><br />";
+
+					$db -> getAllDataFromTable('users');
 				?>
 			</div>
 			<div id="logo"></div>
