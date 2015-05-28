@@ -1,9 +1,27 @@
 <?php
 	require 'config.php';
 
-	function db_error($conn) {
-		if($conn -> errno) {
-			echo '<pre><code>'.$conn -> errno.': '.$conn -> error.'</code></pre>';
+	function error($errno, $error) {
+		if($errno !== null) {
+			console('error', $errno.': '.$error);
+			echo '<pre><code>'.htmlspecialchars($errno.': '.$error).'</code></pre>';
+		} else {
+			console('error', $error);
+			echo '<pre><code>'.htmlspecialchars($error).'</code></pre>';
+		}
+	}
+
+	function console($type, $message) {
+		switch ($type) {
+			case 'error':
+				echo '<script>console.error("'.$message.'")</script>';
+				break;
+			case 'log':
+				echo '<script>console.log("'.$message.'")</script>';
+				break;
+			default:
+				echo '<script>console.log("'.$message.'")</script>';
+				break;
 		}
 	}
 ?>
@@ -42,19 +60,25 @@
 				<?php
 					$conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 
-					$query = "SELECT * FROM user";
+					if($conn -> connect_errno) error($conn -> connect_errno, $conn -> connect_error);
 
-					if($conn -> connect_errno) {
-						db_error($conn);
+					// query
+					$query = "INSERT INTO users (id, user, password) VALUES (?, ?, ?)";
+
+					// prepare query
+					$stmt = $conn -> prepare($query);
+					
+					// bind params to query
+					$stmt -> bind_param('iss', $username, $password);
+
+					//execute query
+					$stmt -> execute();
+
+					try {
+						if(!$stmt) throw new Exception($conn -> errno.": ".$conn -> error);
+					} catch(Exception $e) {
+						error(null, $e -> getMessage());
 					}
-
-					if($result = $conn -> query($query)) {
-						
-						while ($array = $result -> fetch_assoc()) {
-							echo $array['User'];
-						}
-
-					} else db_error($conn);
 				?>
 			</div>
 			<div id="logo"></div>
