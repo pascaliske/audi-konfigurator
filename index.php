@@ -43,27 +43,7 @@
 			</menu>
 			<div id="preview">
 				<?php
-					$conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
-
-					if($conn -> connect_errno) error($conn -> connect_errno, $conn -> connect_error);
-
-					// query
-					$query = "INSERT INTO users (id, user, password) VALUES (?, ?, ?)";
-
-					// prepare query
-					$stmt = $conn -> prepare($query);
-					
-					// bind params to query
-					$stmt -> bind_param('iss', $username, $password);
-
-					//execute query
-					$stmt -> execute();
-
-					try {
-						if(!$stmt) throw new Exception($conn -> errno.": ".$conn -> error);
-					} catch(Exception $e) {
-						error(null, $e -> getMessage());
-					}
+					$db -> test('hallo');
 				?>
 			</div>
 			<div id="logo"></div>
