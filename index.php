@@ -1,29 +1,14 @@
 <?php
+	// load all required files
 	require 'config.php';
-
-	function error($errno, $error) {
-		if($errno !== null) {
-			console('error', $errno.': '.$error);
-			echo '<pre><code>'.htmlspecialchars($errno.': '.$error).'</code></pre>';
-		} else {
-			console('error', $error);
-			echo '<pre><code>'.htmlspecialchars($error).'</code></pre>';
-		}
+	require 'core\core.class.php';
+	foreach (glob("core\classes\*.subclass.php") as $class) {
+		include $class;
 	}
 
-	function console($type, $message) {
-		switch ($type) {
-			case 'error':
-				echo '<script>console.error("'.$message.'")</script>';
-				break;
-			case 'log':
-				echo '<script>console.log("'.$message.'")</script>';
-				break;
-			default:
-				echo '<script>console.log("'.$message.'")</script>';
-				break;
-		}
-	}
+	$core = new core();
+	$db = $core -> db;
+
 ?>
 <!DOCTYPE html>
 <html lang="de">
