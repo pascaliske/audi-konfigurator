@@ -46,5 +46,9 @@ class db extends core {
 	public function getData() {
 		
 	}
+	
+	public function test($msg) {
+		echo $msg;
+	}
 }
 ?>
