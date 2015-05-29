@@ -3,7 +3,7 @@
 The next school project we're making. A simple remake of the Audi configuration tool.
 
 ## Database Details
-DB: **audi-konfigurator**
+DB: **audi-konfigurator**<br>
 User: **root**
 Password: **-**
 
