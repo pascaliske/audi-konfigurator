@@ -16,9 +16,9 @@ Password: **-**
 5. Now save this configuration or print it if you want.
 
 ## Thanks
-Thanks to @jacoborus for his amazing nanobar! We used it for displaying progresses in this project.
+Thanks to [@jacoborus](https://github.com/jacoborus) for his amazing [nanobar](https://github.com/jacoborus/nanobar)! We used it for displaying progresses in this project.
 
 ## Bugs/Issues
 if(bugs) {
-	doPullRequest();
+    doPullRequest();
 }
