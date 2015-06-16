@@ -1,4 +1,7 @@
 <?php
+	// win <-> mac path hack
+	define("MAMP", true);
+
 	// server of the DB
 	if(!defined("DB_HOST")) {
 		define("DB_HOST", "localhost");
@@ -16,14 +19,16 @@
 
 	// password of the DB
 	if(!defined("DB_PASSWORD")) {
-		define("DB_PASSWORD", "");
+		$password = (MAMP) ? "root" : "";
+		
+		define("DB_PASSWORD", $password);
 	}
 
 	// name of the DB
 	if(!defined("DB_NAME")) {
-		define("DB_NAME", "test");
+		define("DB_NAME", "audi-konfigurator");
 	}
-	
+
 	// DEBUGMODE
 	if(!defined("DEBUGMODE")) {
 		define("DEBUGMODE", true);

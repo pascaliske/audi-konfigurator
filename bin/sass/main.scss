@@ -1,0 +1,38 @@
+// settings -------------------------------------------------------- //
+// colors
+$primary: rgb(45, 51, 61); // darkblue
+$secondary: rgb(245, 245, 245); // lightgrey
+$lighttext: rgb(255, 255, 255); // white
+$borders: rgb(230, 230, 230); // grey
+
+// breakpoints
+$breakpoints: (
+	'large': (),
+	'medium': (),
+	'small': (),
+	'tablets': (),
+	'phones': ()
+);
+
+// z-layers
+$layers: (
+	'ontop': 900,
+	'header': 200,
+	'middle': 0,
+	'back': -200,
+	'background': -900
+);
+
+// font sizes
+$font-sizes : (
+	'large': (),
+	'medium': (),
+	'small': ()
+);
+// ----------------------------------------------------------------- //
+
+// import stuff
+@import "_sassbox";
+@import "_reset";
+@import "_default";
+@import "_forms";

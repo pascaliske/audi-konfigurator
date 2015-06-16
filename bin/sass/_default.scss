@@ -1,0 +1,251 @@
+#menu {
+	$height: 40px;
+	@include size(100%, $height);
+	position: fixed;
+	top: 0;
+	background: $primary;
+	font-size: 1rem;
+	z-index: layer('ontop');
+	@include transition(height .4s);
+
+	&:hover {
+		height: 300px;
+	}
+
+	& * {
+		color: $lighttext;
+	}
+
+	ul {
+		@include size(100%, $height);
+		@include flexbox();
+		justify-content: center;
+
+		li {
+			width: 80px;
+			line-height: $height;
+			display: inline-block;
+			text-align: center;
+
+			&:hover {
+				background: transparent(white, .1);
+			}
+
+			a {
+				@include size(100%);
+				display: block;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+#header {
+	@include size(100%, 40px);
+	position: fixed;
+	top: 40px;
+	background: $primary;
+	font-size: 1rem;
+	z-index: layer('header');
+
+	div:not(.steps) {
+		position: absolute !important;
+		top: 18px !important;
+	}
+
+	.steps {
+		$height: 40px;
+		@include size(100%, $height);
+		position: absolute;
+		bottom: 0;
+
+		& * {
+			color: $lighttext;
+		}
+
+		ul {
+			@include size(100%, $height);
+			@include flexbox();
+
+			li {
+				@include flex-value(1);
+				line-height: $height;
+				display: inline-block;
+				text-align: center;
+
+				&:hover {
+					background: transparent(white, .1);
+				}
+
+				&.current {
+					background: transparent(white, .2);
+				}
+
+				a {
+					@include size(100%);
+					display: block;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
+
+#wrapper {
+	width: 90%;
+	height: auto;
+	min-height: 100%;
+	margin: 100px auto 0;
+	@include flexbox();
+	background: $secondary;
+	font-size: 1rem;
+	z-index: layer('middle');
+
+	&.scroll {
+		margin: 40px auto 0;
+	}
+
+	#content {
+		@include flex-value(1);
+		@include flex-order(1);
+
+		#heading {
+			padding: 20px 20px 0 20px;
+		}
+
+		#items {
+			@include flexbox(column);
+			padding: 20px 0;
+
+			.item {
+				@include size(calc(100% - 40px), 150px);
+				padding: 20px;
+				@include flexbox();
+
+				&:hover {
+					background: transparent($primary, .3) !important;
+
+					&.item-has-image {
+						.image {
+							border: 1px transparent($primary, .1) solid !important;
+						}
+					}					
+				}
+
+				&:nth-of-type(2n) {
+					background: darken($secondary, 4%);
+
+					&.item-has-image {
+						.image {
+							border: 1px darken($borders, 2%) solid;
+						}
+					}
+				}
+
+				&.item-has-image {
+					.image {
+						@include size(220px, auto);
+						margin: 0 30px 0 10px;
+						@include flex-order(2);
+						border: 1px $borders solid;
+					}
+
+					.description {
+						margin: 0;
+					}
+				}
+
+				.cmd {
+					@include size(30px, 100%);
+					position: relative;
+					@include flex-order(1);
+
+					input {
+						@include size(12px);
+						margin: -6px;
+						position: absolute;
+						left: 50%;
+						top: 50%;
+					}
+				}
+
+				.description {
+					margin: 0 20px;
+					@include flex-value(1);
+					@include flex-order(3);
+				}
+			}
+
+			.item:first-of-type, .item:last-of-type {
+				margin: 0;
+			}
+		}
+
+		#footer {
+			padding: 20px;
+			border-top: 1px $borders solid;
+			@include flexbox();
+			justify-content: flex-end;
+
+			input[type="submit"] {
+				width: 70px;
+			}
+		}
+	}
+
+	#sidebar {
+		width: 220px;
+		position: relative;
+		padding: 20px;
+		@include flex-order(2);
+		background: rgb(45, 51, 61);
+		z-index: layer('header') - 1 !important;
+
+		& * {
+			color: $lighttext;
+		}
+
+		.price {
+			@include size(220px, 100%);
+			position: absolute;
+			top: 20px;
+
+			&.scroll {
+				position: fixed;
+				top: 100px;
+			}
+
+			.progress {
+				margin-bottom: 20px;
+				padding: 0 0 20px;
+				border-bottom: 1px transparent($borders, .3) dashed;
+
+				p {
+					font-size: 3.5rem;
+
+					span {
+						font-size: 1.5rem;
+					}
+				}
+
+				#progressbar div {
+					z-index: layer('header') - 1 !important;
+				}
+			}
+		}
+	}
+}
+
+#branding {
+	@include size(90%, auto);
+	min-height: 250px;
+	margin-top: 50px;
+	padding: 20px 5%;
+	border-top: 1px $borders solid;
+	font-size: 1rem;
+	z-index: layer('back') !important;
+}
+
+#progressbar {
+	z-index: layer('header');
+}

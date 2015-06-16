@@ -1,0 +1,1693 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wp-",
+				"wp-content/"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"fot",
+				"font-size"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"get_st",
+				"get_stylesheet_directory〔function〕"
+			],
+			[
+				"get_the_pos",
+				"get_the_post_thumbnail〔function〕"
+			],
+			[
+				"has_pos",
+				"has_post_thumbnail〔function〕"
+			],
+			[
+				"c",
+				"center"
+			],
+			[
+				"mys",
+				"mysql_errno"
+			],
+			[
+				"DB",
+				"DB_PASSWORD"
+			],
+			[
+				"DB_",
+				"DB_HOST"
+			],
+			[
+				"defin",
+				"define〔function〕"
+			],
+			[
+				"def",
+				"defined〔function〕"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"fade",
+				"fadeto	.fadeTo()"
+			],
+			[
+				"fad",
+				"fadeto	.fadeTo()"
+			],
+			[
+				"rem",
+				"removeClass	.removeClass()"
+			],
+			[
+				"po",
+				"pos	position: ${1:relative};"
+			],
+			[
+				"scrol",
+				"scrollBottom"
+			],
+			[
+				"scro",
+				"scrollTop"
+			],
+			[
+				"scroll",
+				"scrollMax"
+			],
+			[
+				"add",
+				"addClass  (function)"
+			],
+			[
+				"cont",
+				"content"
+			],
+			[
+				"togg",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"css",
+				"css	.css() - single"
+			],
+			[
+				"scr",
+				"scrollTop  (function)"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"cha",
+				"change"
+			],
+			[
+				"wi",
+				"width	.width()"
+			],
+			[
+				"eac",
+				"each	.each()"
+			],
+			[
+				"cs",
+				"css	.css() - single"
+			],
+			[
+				"pause",
+				"pause"
+			],
+			[
+				"prev",
+				"preventDefault"
+			],
+			[
+				"he",
+				"height	.height()"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"to",
+				"top"
+			],
+			[
+				"wrap",
+				"wrapper"
+			],
+			[
+				"on",
+				"on	.on()"
+			],
+			[
+				"cur",
+				"current_image"
+			],
+			[
+				"sta",
+				"start_image"
+			],
+			[
+				"ea",
+				"each	.each()"
+			],
+			[
+				"set",
+				"settings"
+			],
+			[
+				"goto",
+				"gotoSlide"
+			],
+			[
+				"att",
+				"attr	.attr() - single"
+			],
+			[
+				"attr",
+				"attr"
+			],
+			[
+				"next",
+				"next_image"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"tr",
+				"transition"
+			],
+			[
+				"pag",
+				"paginationMargin"
+			],
+			[
+				"con",
+				"containerHeight"
+			],
+			[
+				"ima",
+				"image_count"
+			],
+			[
+				"start",
+				"startSlider"
+			],
+			[
+				"aut",
+				"autoplay"
+			],
+			[
+				"prog",
+				"progressBar"
+			],
+			[
+				"res",
+				"resumeSlider"
+			],
+			[
+				"paus",
+				"pauseSlider"
+			],
+			[
+				"ack",
+				"background-size"
+			],
+			[
+				"bor",
+				"border-left"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"lig",
+				"lightgrey"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"ready",
+				"ready	$(document).ready"
+			],
+			[
+				"file",
+				"fileuploader"
+			],
+			[
+				"plugin",
+				"plugin"
+			],
+			[
+				"admin",
+				"adminpage"
+			],
+			[
+				"print_r",
+				"print_r"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"flex",
+				"flex"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"dec",
+				"decimal"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"des",
+				"desaturate"
+			],
+			[
+				"deat",
+				"desaturate"
+			],
+			[
+				"proj",
+				"project"
+			],
+			[
+				"inh",
+				"inherit"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"background",
+				"background"
+			],
+			[
+				"backgr",
+				"background"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"get",
+				"getTitle"
+			],
+			[
+				"ove",
+				"overflow-x"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"toggle",
+				"toggleCommandPalette"
+			],
+			[
+				"fn",
+				"function"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"curr",
+				"current"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"backg",
+				"background-position"
+			],
+			[
+				"cmd",
+				"cmdCounter"
+			],
+			[
+				"ic",
+				"i_cmd"
+			],
+			[
+				"sel",
+				"selectCommand"
+			],
+			[
+				"sece",
+				"selectCommand"
+			],
+			[
+				"toggl",
+				"toggleCommandPalette"
+			],
+			[
+				"remo",
+				"removeClass	.removeClass()"
+			],
+			[
+				"tog",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"prep",
+				"prependTo	.prependTo()"
+			],
+			[
+				"remov",
+				"remove"
+			],
+			[
+				"comm",
+				"commands"
+			],
+			[
+				"out",
+				"outline"
+			],
+			[
+				"has",
+				"hasClass	.hasClass()"
+			],
+			[
+				"meta",
+				"metaKey"
+			],
+			[
+				"file_",
+				"file_exists"
+			],
+			[
+				"print",
+				"print_r	print_r"
+			],
+			[
+				"er",
+				"error"
+			],
+			[
+				"array",
+				"array"
+			],
+			[
+				"err",
+				"error_list"
+			],
+			[
+				"bef",
+				"before"
+			],
+			[
+				"col",
+				"column"
+			],
+			[
+				"su",
+				"supportchat"
+			],
+			[
+				"send",
+				"sendSupportChatMessage"
+			],
+			[
+				"support",
+				"supportchat"
+			],
+			[
+				"overf",
+				"overflow-y"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"it",
+				"italic"
+			],
+			[
+				"date",
+				"dateValues"
+			],
+			[
+				"time",
+				"timeStamp"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"bot",
+				"border-top"
+			],
+			[
+				"up",
+				"uppercase"
+			],
+			[
+				"let",
+				"letter-spacing"
+			],
+			[
+				"rgb",
+				"rgba"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<div class=\"wrapper\">\n	\n	<!-- FLEXIBLE CONTENT -->\n	<section class=\"flex content\">\n		<p>Converting Ben Smithett's Sass Flexbox Mixin to SCSS</p>\n	</section>\n	\n	<!-- FIXED WIDTH NAV -->\n	<nav class=\"fix nav\">\n		<h2>Nav</h2>\n		<ul>\n			<li><a href=\"#\">Home</a></li>\n			<li><a href=\"#\">About</a></li>\n			<li><a href=\"#\">Clients</a></li>\n			<li><a href=\"#\">Contact Us</a></li>\n		</ul>\n	</nav>\n	\n	<!-- FIXED IDTH SIDEBAR -->\n	<aside class=\"fix sidebar\">\n		<h2>Sidebar</h2>\n	</aside>\n</div>",
+			"settings":
+			{
+				"buffer_size": 483,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "/* Mixins */\n@mixin flexbox() {\n	display: -webkit-box;\n	display: -moz-box;\n	display: -ms-flexbox;\n	display: -webkit-flex;\n	display: flex;\n}\n@mixin flex-value($value: 1) {\n	-webkit-box-flex: $value;\n	-moz-box-flex: $value;\n	-webkit-flex: $value;\n	-ms-flex: $value;\n	flex: $value;\n}\n@mixin flex-position($order: 1) {\n	-webkit-box-ordinal-group: $order;\n	-moz-box-ordinal-group: $order;\n	-ms-flex-order: $order;\n	-webkit-order: $order;\n	order: $order;\n}\n\n\n\n.wrapper {\n	@include flexbox();\n}\n.flex {\n	@include flex-position(2);\n	@include flex-value(1);\n	background: grey;\n}\n.fix {\n	width: 200px;\n}\n\n.nav {\n	@include flex-position(1);\n	background: #ccc;\n}\n.sidebar {\n	@include flex-position(3);\n	background: #ccc;\n}",
+			"settings":
+			{
+				"buffer_size": 710,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 368.0,
+		"last_filter": "sscss",
+		"selected_items":
+		[
+			[
+				"sscss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"sht",
+				"Set Syntax: HTML"
+			],
+			[
+				"sp",
+				"Set Syntax: PHP"
+			],
+			[
+				"scss",
+				"Set Syntax: CSS"
+			],
+			[
+				"scs",
+				"Set Syntax: CSS"
+			],
+			[
+				"sl",
+				"Set Syntax: LESS"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"sublime",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"brows",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"sj",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"sas",
+				"Set Syntax: Sass"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"sless",
+				"Set Syntax: LESS"
+			],
+			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"file",
+				"File: Save All"
+			],
+			[
+				"shtm",
+				"Set Syntax: HTML"
+			],
+			[
+				"edit",
+				"SFTP: Edit Server…"
+			],
+			[
+				"brow",
+				"SFTP: Browse Server…"
+			],
+			[
+				"sbat",
+				"Set Syntax: Batch File"
+			],
+			[
+				"fet",
+				"Fetch: File"
+			],
+			[
+				"fe",
+				"Fetch: Manage"
+			],
+			[
+				"proj",
+				"Project: Edit"
+			],
+			[
+				"task",
+				"Tasks: Archive"
+			],
+			[
+				"t",
+				"Tasks: Archive"
+			],
+			[
+				"to",
+				"Tasks: Open Link"
+			],
+			[
+				"spm",
+				"Simple Project Manager: Remove Project"
+			],
+			[
+				"simple",
+				"Simple Project Manager: List Projects"
+			],
+			[
+				"br",
+				"SFTP: Browse Server…"
+			],
+			[
+				"bro",
+				"SFTP: Browse Server…"
+			],
+			[
+				"sja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sjq",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"co",
+				"Color Picker"
+			],
+			[
+				"colo",
+				"Color Picker"
+			],
+			[
+				"w",
+				"Web Inspector"
+			],
+			[
+				"web",
+				"Web Inspector"
+			],
+			[
+				"glue",
+				"Glue - Launch"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"cli",
+				"Clipboard History"
+			],
+			[
+				"git",
+				"Git: Init"
+			],
+			[
+				"livesty",
+				"LiveStyle: Apply Patch"
+			],
+			[
+				"live",
+				"LiveStyle: Install WebKit extension"
+			],
+			[
+				"lives",
+				"LiveStyle: Install WebKit extension"
+			],
+			[
+				"ssa",
+				"Set Syntax: Sass"
+			],
+			[
+				"emmet s",
+				"Emmet: Split\\Join Tag"
+			],
+			[
+				"sftp",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"sft",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"jq",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"j",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"fetch",
+				"Fetch: Manage"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"sget",
+				"Set Syntax: Gettext"
+			],
+			[
+				"set",
+				"Set Syntax: Gettext"
+			],
+			[
+				"browse",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"sf",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"project",
+				"STProjectMaker: Create project"
+			],
+			[
+				"sph",
+				"Set Syntax: PHP"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"setp",
+				"Set Syntax: PHP"
+			],
+			[
+				"fetc",
+				"Fetch: File"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ipad",
+				"Snippet: ipad landscape"
+			],
+			[
+				"sle",
+				"Set Syntax: LESS"
+			],
+			[
+				"emm",
+				"Set Syntax: Emmet"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Add Repository"
+			],
+			[
+				"snipp",
+				"Snippet: ipad"
+			],
+			[
+				"packe",
+				"Package Control: Install Package"
+			],
+			[
+				"js",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"less",
+				"Minify::Default File Settings"
+			],
+			[
+				"copy",
+				"Auto Copyright: Insert Copyright"
+			],
+			[
+				"aut",
+				"Preferences: AutoCopyright Settings – Default"
+			],
+			[
+				"tid",
+				"TidyHTML"
+			],
+			[
+				"tidy",
+				"TidyHTML"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"html",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"pac",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 374.0
+	},
+	"console":
+	{
+		"height": 286.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Volumes/PASCALISKE/untitled folder"
+	],
+	"file_history":
+	[
+		"/Volumes/PASCALISKE/stadtkapelle/stadtkapelle.sublime-project",
+		"/Volumes/PASCALISKE/stadtkapelle/wp-content/themes/relaunch/functions.php",
+		"/Volumes/PASCALISKE/stadtkapelle/wp-content/themes/relaunch/main.less",
+		"/Volumes/PASCALISKE/stadtkapelle/wp-content/themes/relaunch/less/_default.less",
+		"/Volumes/PASCALISKE/stadtkapelle/wp-content/themes/relaunch/main.min.css",
+		"/Volumes/PASCALISKE/stadtkapelle/wp-content/themes/relaunch/page-home.php",
+		"/Volumes/PASCALISKE/stadtkapelle/wp-content/themes/relaunch/footer.php",
+		"/Volumes/PASCALISKE/stadtkapelle/wp-content/themes/relaunch/page.php",
+		"/Volumes/PASCALISKE/stadtkapelle/wp-content/themes/relaunch/options.php",
+		"/Volumes/PASCALISKE/stadtkapelle/wp-content/themes/relaunch/options-framework/includes/class-options-framework-admin.php",
+		"/Volumes/PASCALISKE/stadtkapelle/wp-content/themes/relaunch/style.css",
+		"/Volumes/PASCALISKE/stadtkapelle/wp-content/themes/relaunch/._sftp-config.json",
+		"/Volumes/PASCALISKE/stadtkapelle/._.DS_Store",
+		"/Users/pascaliske/Dropbox/Web Development/projects/audi-konfigurator/app.css",
+		"/Users/pascaliske/Sites/Mamp/projects/arztpraxis/sftp-config.json",
+		"/Users/pascaliske/Sites/Mamp/projects/pascal-iske/first/sftp-config.json",
+		"/Users/pascaliske/Sites/Mamp/projects/arztpraxis/less/_footer.less",
+		"/Users/pascaliske/Sites/Mamp/projects/arztpraxis/less/_menu.less",
+		"/Users/pascaliske/Sites/Mamp/projects/arztpraxis/less/_header.less",
+		"/Users/pascaliske/Sites/Mamp/projects/arztpraxis/arztpraxis.sublime-project",
+		"/Users/pascaliske/Sites/Mamp/projects/arztpraxis/less/_default.less",
+		"/Users/pascaliske/Sites/Mamp/projects/arztpraxis/less/_slider.less",
+		"/Users/pascaliske/Sites/Mamp/projects/arztpraxis/less/_vars.less",
+		"/Users/pascaliske/Sites/Mamp/projects/arztpraxis/less/_reset.less",
+		"/Users/pascaliske/Sites/Mamp/projects/arztpraxis/scripts/slider.js",
+		"/Users/pascaliske/Sites/Mamp/projects/arztpraxis/lorem.php",
+		"/Users/pascaliske/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/pascaliske/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/pascaliske/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/pascaliske/Library/Application Support/Sublime Text 3/Packages/Less2Css/less2css.sublime-settings",
+		"/Users/pascaliske/Library/Application Support/Sublime Text 3/Packages/User/less2css.sublime-settings",
+		"/Users/pascaliske/Dropbox/Sublime Text 3/User/Snippets/scrollevent.sublime-snippet",
+		"/Users/pascaliske/Sites/Mamp/projects/arztpraxis/images/menubtn.svg",
+		"/Users/pascaliske/Sites/Mamp/projects/arztpraxis/scripts/snap-svg.min.js",
+		"/Users/pascaliske/Sites/Mamp/projects/arztpraxis/scripts/svgicons.js",
+		"/Users/pascaliske/Sites/Mamp/projects/arztpraxis/scripts/snag-svg.min.js",
+		"/Users/pascaliske/Sites/Mamp/projects/arztpraxis/scripts/test.js",
+		"/Users/pascaliske/Sites/Mamp/projects/arztpraxis/scripts/main.js",
+		"/Users/pascaliske/Sites/Mamp/projects/arztpraxis/main.less",
+		"/Users/pascaliske/Sites/Mamp/projects/arztpraxis/main.min.css",
+		"/Users/pascaliske/Desktop/project/project.sublime-project",
+		"/Users/pascaliske/Library/Application Support/Sublime Text 3/Packages/SublimeOnSaveBuild/SublimeOnSaveBuild.sublime-settings",
+		"/Users/pascaliske/Library/Application Support/Sublime Text 3/Packages/User/SublimeOnSaveBuild.sublime-settings",
+		"/Users/pascaliske/Sites/Mamp/projects/arztpraxis/main.min.min.css",
+		"/Users/pascaliske/Sites/Mamp/projects/arztpraxis/less/_elements.less",
+		"/Users/pascaliske/Desktop/arztpraxis/sass/test.sass",
+		"/Users/pascaliske/Desktop/arztpraxis/sass/test.css.map",
+		"/Users/pascaliske/Desktop/arztpraxis/sass/test.css",
+		"/Users/pascaliske/Library/Application Support/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/scripts/packages/modernizr.min.js",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/scripts/packages/modernizr.js",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/scripts/packages/modernizr.beautified.js",
+		"/Volumes/Macintosh HD/Users/pascaliske/Downloads/modernizr.custom.86799.js",
+		"/Volumes/Macintosh HD/Users/pascaliske/Dropbox/Sublime Text 3/User/Snippets/jQuery-plugin.sublime-snippet",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/index.php",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/sftp-config.json",
+		"/Volumes/Macintosh HD/Users/pascaliske/Desktop/index.php",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/sftp-config.json",
+		"/Volumes/Macintosh HD/Users/pascaliske/Library/Application Support/Sublime Text 3/Packages/User/sftp_servers/pascal-iske",
+		"/Volumes/Macintosh HD/Users/pascaliske/Desktop/test.html",
+		"/var/folders/rm/3ltznq7j6473hv0wtn1sz1_80000gn/T/sublime-sftp-browse-1415201184/pascal-iske/index.php",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/admin/pages/mediacenter.php",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/less/admin/_loader.less",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/less/_default.less",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/templates/fullpage.tpl.php",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/classes/page.subclass.php",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/templates/sidebar.tpl.php",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/index.php",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/admin/pages/home.php",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/FILES/impressum.php",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/less/admin/_toolbar.less",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/main.less",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/templates/blog-article.tpl.php",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/includes/cmd.php",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/images/desaturate.svg",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/templates/blog.tpl.php",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/templates/home.tpl.php",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/FILES/impressumg-generator.txt",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/FILES/impressum.txt",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/less/_menu.less",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/classes/menu.subclass.php",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/less/_search.less",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/images/buttons.svg",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/scripts/main.js",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/scripts/main.min.js",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/less/_darkbox.less",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/main.css",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/pascal-iske.sublime-project",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/images/top-btn.svg",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/images/open-search.svg",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/images/settings.svg",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/images/logo.svg",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/images/logo-dark.svg",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/images/logo-light.svg",
+		"/Volumes/Macintosh HD/Users/pascaliske/Library/Application Support/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/scripts/packages/bootstrap-tour.min.js",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/less/admin/_sitetour.less",
+		"/Volumes/Macintosh HD/Users/pascaliske/Dropbox/Sublime Text 3/User/Snippets/break.sublime-snippet",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/core/scripts/lightbox/jquery-1.10.2.min.js",
+		"/Volumes/Macintosh HD/Users/pascaliske/Downloads/access.log.current",
+		"/Volumes/Macintosh HD/Users/pascaliske/Desktop/301.htaccess",
+		"/Volumes/Macintosh HD/Users/pascaliske/Desktop/access.log.current",
+		"/Volumes/PASCALISKE/asusrescue.bat",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/scripts/admin.js",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/admin.min.css",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/admin.less",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/activate.php",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/login.php",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/loader.php",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/config.php",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/includes/submit-form.php",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/less/_vars.less",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/scripts/admin.min.js",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/pascal-iske.todo",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/scripts/packages/touchSwipe.min.js",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/core/classes/toolbar.php",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/scripts/packages/keymaster.min.js",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/scripts/packages/keymaster.js",
+		"/Volumes/Macintosh HD/Users/pascaliske/Library/Application Support/Sublime Text 3/Packages/User/Fetch.sublime-settings",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/classes/setup.class.php",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/install.php",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/.htaccess",
+		"/Volumes/PASCALISKE/id.txt",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/classes/user.subclass.php",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/includes/functions.php",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/scripts/packages/darkbox.js",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/scripts/packages/landing.js",
+		"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/scripts/packages/search.js"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 154.0,
+		"where_history":
+		[
+			"/Volumes/PASCALISKE/stadtkapelle/wp-content/themes/relaunch",
+			"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core",
+			"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/less",
+			"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/less/admin",
+			"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/classes",
+			"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first",
+			"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske/first/core/less",
+			"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/pascal-iske"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"h1",
+			"  ",
+			"less/",
+			"less",
+			"56",
+			"<aside class=\"post-sidebar\">",
+			"excerpt",
+			"the_title()",
+			"$p->post_title",
+			"save",
+			"Einstellungen",
+			"	'",
+			"$options[]",
+			"	'",
+			"$options[]",
+			"options",
+			"			",
+			"echo $p->post_title;",
+			"get_thumbnail",
+			"array",
+			") ?>\"><?php get_thumbnail(",
+			"get_thumbnail(54, array(207, 120))",
+			"54, array(207, 120))",
+			"get_thumbnail",
+			"g\"><a href=\"<?ph",
+			".image {\n					width: 207px;",
+			".image {",
+			"no-image",
+			"get_the_post_thumbnail",
+			"$p->ID, a",
+			"post_thumbnail",
+			"image\">\n						<a href=\"\"></a>",
+			"=\"pagelink\">",
+			"\"><a href=\"\" class",
+			"DB_PASSWORD",
+			");",
+			"print_r",
+			"pre",
+			"br />'",
+			"';",
+			"echo",
+			"DB_HOST",
+			"10",
+			"li",
+			"user-btn",
+			"							",
+			"						",
+			"ul",
+			"40",
+			"underline",
+			"100",
+			"resume",
+			"scrollValue",
+			"aside",
+			"infobox",
+			"home",
+			"body",
+			"document",
+			"value",
+			"contact",
+			"span",
+			"*\n",
+			"span",
+			"div",
+			"if(e.hasClass('paused')) e.removeClass('paused');",
+			"Chrome",
+			"value",
+			"html",
+			"window",
+			"load",
+			"0",
+			"   \n",
+			"hover",
+			"prevSlide();",
+			"nextSlide();",
+			"green",
+			"div",
+			"<li",
+			"#",
+			"menu",
+			"alert",
+			"h1",
+			"path",
+			"folder",
+			"this -> template -> si",
+			"small",
+			"<?php $this -> template -> size; ?>",
+			"small",
+			"after",
+			"before",
+			"dashboard",
+			"menu",
+			"dashboard",
+			"important",
+			"number",
+			"test",
+			"	<div>",
+			"li {",
+			"li",
+			"<li>",
+			"<h3>",
+			"value%",
+			"desaturate",
+			"screenshot",
+			"desaturate",
+			"window",
+			"desaturate",
+			"value",
+			"screenshot",
+			"<a class=\"projectlink",
+			"<a class=\"projectlink\"",
+			"<a class=\"details\" ",
+			"</ul>",
+			"<li class=\"check\">",
+			"<h2 class=\"projectname\">",
+			"<div class=\"info\">	",
+			"<ul class=\"projectwork\">",
+			"</div>",
+			"<img class=\"screenshot\" ",
+			"<span class=\"hide\"></span>	",
+			"<a class=\"darkbox\"></a>	",
+			"<div class=\"window\"",
+			"</section>",
+			"<section id=\"projekt",
+			"<li",
+			"	",
+			"			",
+			"projectlink"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 483,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								414,
+								414
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/predawn (SL).tmTheme",
+							"incomplete_sync": null,
+							"syntax": "Packages/SublimeLinter/fixed-syntaxes/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 710,
+						"regions":
+						{
+							"gutter_color_620":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ccc.png",
+								"regions":
+								[
+									[
+										631,
+										648
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_641":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ccc.png",
+								"regions":
+								[
+									[
+										630,
+										648
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_662":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ccc.png",
+								"regions":
+								[
+									[
+										631,
+										648
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_678":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ccc.png",
+								"regions":
+								[
+									[
+										691,
+										708
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_701":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ccc.png",
+								"regions":
+								[
+									[
+										690,
+										708
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_724":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#ccc.png",
+								"regions":
+								[
+									[
+										691,
+										708
+									]
+								],
+								"scope": "gutter_color"
+							}
+						},
+						"selection":
+						[
+							[
+								453,
+								453
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/predawn (SL).tmTheme",
+							"incomplete_sync": null,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 98.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 139.0
+	},
+	"pinned_build_system": "",
+	"project": "sassbox.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"tod",
+				"first/pascal-iske.todo"
+			],
+			[
+				"todo",
+				"first/pascal-iske.todo"
+			],
+			[
+				"to",
+				"first/pascal-iske.todo"
+			],
+			[
+				"",
+				"first/core/main.less"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"config",
+				"~/Sites/Mamp/dev/config/projects.sublime-project"
+			],
+			[
+				"stad",
+				"~/Sites/Mamp/dev/stadtkapelle/stadtkapelle.sublime-project"
+			],
+			[
+				"neu",
+				"~/Sites/Mamp/dev/neu-isenburg/neu-isenburg.sublime-project"
+			],
+			[
+				"s",
+				"~/Sites/Mamp/dev/stadtkapelle/stadtkapelle.sublime-project"
+			],
+			[
+				"pas",
+				"~/Sites/Mamp/dev/palo-verde/palo-verde.sublime-project"
+			],
+			[
+				"n",
+				"~/Sites/Mamp/dev/neu-isenburg/neu-isenburg.sublime-project"
+			],
+			[
+				"ne",
+				"~/Sites/Mamp/dev/neu-isenburg/neu-isenburg.sublime-project"
+			],
+			[
+				"",
+				"~/Sites/Mamp/dev/numb3rs/numb3rs.sublime-project"
+			],
+			[
+				"num",
+				"~/Sites/Mamp/dev/numb3rs/numb3rs.sublime-project"
+			],
+			[
+				"nu",
+				"~/Sites/Mamp/dev/numb3rs/numb3rs.sublime-project"
+			],
+			[
+				"numb",
+				"~/Sites/Mamp/dev/numb3rs/numb3rs.sublime-project"
+			],
+			[
+				"numb3",
+				"~/Sites/Mamp/dev/numb3rs/numb3rs.sublime-project"
+			],
+			[
+				"pro",
+				"~/Sites/Mamp/dev/config/projects.sublime-project"
+			],
+			[
+				"pr",
+				"~/Sites/Mamp/dev/config/projects.sublime-project"
+			],
+			[
+				"co",
+				"~/Sites/Mamp/dev/config/projects.sublime-project"
+			],
+			[
+				"con",
+				"~/Sites/Mamp/dev/config/projects.sublime-project"
+			],
+			[
+				"la",
+				"~/Sites/Mamp/dev/landing-page/landing-page.sublime-project"
+			],
+			[
+				"lan",
+				"~/Sites/Mamp/dev/landing-page/landing-page.sublime-project"
+			],
+			[
+				"pi",
+				"~/Sites/Mamp/dev/pi-slider/pi-slider.sublime-project"
+			],
+			[
+				"ni",
+				"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/neu-isenburg/neu-isenburg.sublime-project"
+			],
+			[
+				"sa",
+				"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/projects/sarah-heckwolf.sublime-project"
+			],
+			[
+				"hi",
+				"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/lab/fernjob-high-end/fernjob-high-end.sublime-project"
+			],
+			[
+				"pal",
+				"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/projects/palo-verde.sublime-project"
+			],
+			[
+				"al",
+				"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/projects/palo-verde.sublime-project"
+			],
+			[
+				"sta",
+				"/Volumes/Macintosh HD/Users/pascaliske/Sites/Mamp/dev/projects/stadtkapelle.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 244.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

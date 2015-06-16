@@ -1,0 +1,143 @@
+@import "bourbon/bourbon";
+@import "neat/neat";
+
+// size mixin
+@mixin size($width, $height: $width) {
+	width: $width;
+	height: $height;
+}
+
+// fonts
+@mixin font($font, $path: null, $args...) {
+	@if $font == 'helvetica' {
+		font-family: "HelveticaNeue-Light", sans-serif;
+	} @elseif $path == null {
+		@warn "No filepath included!";
+	} @else {
+		@include font-face($font, $path);
+	}
+}
+@function calculateRem($size) {
+	$remSize: $size / 16px;
+	@return $remSize * 1rem;
+}
+@mixin font-size($size) {
+	font-size: $size;
+	font-size: calculateRem($size);
+}
+
+// media queries - rwd & breakpoints
+@mixin breakpoint($name) {
+	@if map-has-key($breakpoints, $name) {
+		@media #{inspect(map-get($breakpoints, $name))} {
+			@content;
+		}
+	} @else {
+		@warn "Couldn't find a breakpoint named `#{$name}`.";
+	}
+}
+@mixin bp($name) {
+	@include breakpoint($name);
+}
+
+// animations & keyframes & transitions
+@mixin keyframes($name) {
+	@-webkit-keyframes $name {
+		@content;
+	}
+	@-moz-keyframes $name {
+		@content;
+	}
+	@-ms-keyframes $name {
+		@content;
+	}
+	@-o-keyframes $name {
+		@content;
+	}
+	@keyframes $name {
+		@content;
+	}
+}
+@mixin animation($str) {
+	-webkit-animation: #{$str};
+	-moz-animation: #{$str};
+	-ms-animation: #{$str};
+	-o-animation: #{$str};
+	animation: #{$str};
+}
+@mixin transition($args...) {
+	-webkit-transition: $args;
+	-moz-transition: $args;
+	-ms-transition: $args;
+	-o-transition: $args;
+	transition: $args;
+}
+
+// transforms
+@mixin transform($args...) {
+	-webkit-transform: $args;
+	-moz-transform: $args;
+	-ms-transform: $args;
+	-o-transform: $args;
+	transform: $args;
+}
+
+// flexbox
+@mixin flexbox($direction: row) {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: $direction;
+}
+@mixin flex-value($value: 1) {
+	-webkit-box-flex: $value;
+	-moz-box-flex: $value;
+	-webkit-flex: $value;
+	-ms-flex: $value;
+	flex: $value;
+}
+@mixin flex-order($order: 1) {
+	-webkit-box-ordinal-group: $order;
+	-moz-box-ordinal-group: $order;
+	-ms-flex-order: $order;
+	-webkit-order: $order;
+	order: $order;
+}
+
+// color mixins
+@function transparent($color: black, $opacity: .5) {
+	$redc: red($color);
+	$greenc: green($color);
+	$bluec: blue($color);
+	@return rgba($redc, $greenc, $bluec, $opacity);
+}
+
+// layer functions
+@function layer($layer: 0) {
+	@if not map-has-key($layers, $layer) {
+		@warn "No layer found for '#{$layer}' in $layers map. Property omitted.";
+	}
+	@return map-get($layers, $layer);
+}
+
+// border mixins
+@mixin border-radius($top, $bottom: null) {
+	@if $bottom != null {
+		-webkit-border-radius: $top $top $bottom $bottom;
+		-moz-border-radius: $top $top $bottom $bottom;
+		-ms-border-radius: $top $top $bottom $bottom;
+		-o-border-radius: $top $top $bottom $bottom;
+		border-radius: $top $top $bottom $bottom;
+	} @else {
+		@include rounded($top);
+	}
+}
+@mixin rounded($value: 5px) {
+	-webkit-border-radius: $value;
+	-moz-border-radius: $value;
+	-ms-border-radius: $value;
+	-o-border-radius: $value;
+	border-radius: $value;
+}
