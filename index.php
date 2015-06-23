@@ -24,13 +24,17 @@
 <head>
 	<title>Audi Konfigurator</title>
 	<link rel="stylesheet" type="text/css" href="bin/main.css" />
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-	<script type="text/javascript" src="bin/main.js"></script>
 </head>
 <body>
 	<nav id="menu">
 		<ul>
-			<li class="fixed"><a href="#">A1</a></li>
+			<li class="fixed">
+				<a href="#">A1</a>
+				<ul>
+					<li>Test 1</li>
+					<li>Test 2</li>
+				</ul>
+			</li>
 			<li class="fixed"><a href="#">A3</a></li>
 			<li class="fixed"><a href="#">A4</a></li>
 			<li class="fixed"><a href="#">A5</a></li>
@@ -160,5 +164,9 @@
 	<footer id="branding">
 		<p>&copy; <?php echo date("Y"); ?></p>
 	</footer>
+	
+	<!-- scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="bin/main.js"></script>
 </body>
 </html>
