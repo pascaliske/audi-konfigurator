@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Erstellungszeit: 23. Jun 2015 um 08:26
+-- Erstellungszeit: 23. Jun 2015 um 09:20
 -- Server Version: 5.6.21
 -- PHP-Version: 5.6.3
 
@@ -23,6 +23,67 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+-- Tabellenstruktur für Tabelle `entertainment`
+--
+
+CREATE TABLE IF NOT EXISTS `entertainment` (
+`EntertainmentSystemID` int(11) NOT NULL,
+  `Name` varchar(255) NOT NULL,
+  `Preis` double NOT NULL,
+  `FahrzeugID` int(11) NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=43 DEFAULT CHARSET=latin1;
+
+--
+-- Daten für Tabelle `entertainment`
+--
+
+INSERT INTO `entertainment` (`EntertainmentSystemID`, `Name`, `Preis`, `FahrzeugID`) VALUES
+(1, 'MMI Navigation plus', 2390, 0),
+(2, 'BOSE Surround Sound', 695, 0),
+(3, 'Mitterldisplay', 0, 0),
+(4, 'Fahrerinformationssystem', 180, 0),
+(5, 'Navigationspaket', 1160, 0),
+(6, '4 Passivlautsprecher vorn', 0, 0),
+(7, 'Audi music interface', 245, 0),
+(8, 'Audi music interface online', 290, 0),
+(9, 'Audi sound system', 250, 0),
+(10, 'CD-Wechsler', 410, 0),
+(11, 'Digitaler Radioempfang', 300, 0),
+(12, 'MMI Radio', 425, 0),
+(13, 'Radioanlage chorus', 0, 0),
+(14, 'Audi connect inklusive Autotelefon', 500, 0),
+(15, 'Audi phone box', 640, 0),
+(16, 'Bluetooth-Schnittstelle', 300, 0),
+(17, 'Connectivity-Paket', 570, 0),
+(18, 'media-Paket', 900, 0),
+(19, 'Bang & Olufsen Sound System', 790, 0),
+(20, 'MMI Navigation plus mit MMI touch', 2725, 0),
+(21, 'Audi Radio', 0, 0),
+(22, 'AUX-IN Eingang', 0, 0),
+(23, 'Passiv-Lautsprecher vorn und hinten', 0, 0),
+(24, 'Audi drive select', 200, 0),
+(25, 'Fahrerinformationssystem mit Effizienzprogramm', 0, 0),
+(26, 'Radioanlage concert', 360, 0),
+(27, 'Radioanlage symphony', 620, 0),
+(28, 'Single-CD-Laufwerk', 0, 0),
+(29, 'Vorbereitung für Rear Seat Entertainment', 155, 0),
+(30, 'Fahrerinformationssystem mit Farbdisplay ', 0, 0),
+(31, 'CD-Wechsler für MMI® Navigation', 420, 0),
+(32, 'CD-Wechsler für MMI® Navigation plus ', 420, 0),
+(33, 'Acht Passivlautsprecher vorn, Gesamtleistung 80 Watt', 0, 0),
+(34, 'Head-up Display', 1380, 0),
+(35, 'Bang & Olufsen Advanced Sound System', 6000, 0),
+(36, 'Eingabemedium für Multi Media ', 0, 0),
+(37, 'Fahrerinformationssystem mit 7-Zoll-Farbdisplay', 390, 0),
+(38, 'Digitaler TV- und Radioempfang ', 1465, 0),
+(39, 'Digitaler TV-Empfang', 1075, 0),
+(40, 'DVD-/CD-Wechsler', 650, 0),
+(41, 'Komfortklimaautomatik 4-Zonen', 0, 0),
+(42, 'Audi virtual cockpit', 0, 0);
+
+-- --------------------------------------------------------
+
+--
 -- Tabellenstruktur für Tabelle `lichter`
 --
 
@@ -32,7 +93,22 @@ CREATE TABLE IF NOT EXISTS `lichter` (
   `FahrzeugID` varchar(255) NOT NULL,
   `Preis` decimal(11,0) NOT NULL,
   `Seite` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;
+
+--
+-- Daten für Tabelle `lichter`
+--
+
+INSERT INTO `lichter` (`LichtID`, `Art`, `FahrzeugID`, `Preis`, `Seite`) VALUES
+(1, 'Halogen', '', '0', 'Front'),
+(2, 'Xenon plus', '', '900', 'Front'),
+(4, 'LED', '', '250', 'Heck'),
+(5, 'Nebelscheinwerfer', '', '150', 'Front'),
+(6, 'LED', '', '1690', 'Front'),
+(7, 'Halogen', '', '0', 'Heck'),
+(8, 'LED+dynBlinker', '', '0', 'Heck'),
+(9, 'Matrix-LED', '', '960', 'Front'),
+(10, 'LED-Laserlicht', '', '3380', 'Front');
 
 -- --------------------------------------------------------
 
@@ -106,6 +182,12 @@ INSERT INTO `motor` (`MotorID`, `Name`, `FahrzeugID`, `Kraftstoff`, `PSZahl`, `k
 --
 
 --
+-- Indizes für die Tabelle `entertainment`
+--
+ALTER TABLE `entertainment`
+ ADD PRIMARY KEY (`EntertainmentSystemID`);
+
+--
 -- Indizes für die Tabelle `lichter`
 --
 ALTER TABLE `lichter`
@@ -122,10 +204,15 @@ ALTER TABLE `motor`
 --
 
 --
+-- AUTO_INCREMENT für Tabelle `entertainment`
+--
+ALTER TABLE `entertainment`
+MODIFY `EntertainmentSystemID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=43;
+--
 -- AUTO_INCREMENT für Tabelle `lichter`
 --
 ALTER TABLE `lichter`
-MODIFY `LichtID` int(11) NOT NULL AUTO_INCREMENT;
+MODIFY `LichtID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=11;
 --
 -- AUTO_INCREMENT für Tabelle `motor`
 --
