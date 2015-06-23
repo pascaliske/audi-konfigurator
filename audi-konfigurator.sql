@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Erstellungszeit: 15. Jun 2015 um 21:37
+-- Erstellungszeit: 23. Jun 2015 um 08:26
 -- Server Version: 5.6.21
 -- PHP-Version: 5.6.3
 
@@ -19,6 +19,20 @@ SET time_zone = "+00:00";
 --
 -- Datenbank: `audi-konfigurator`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Tabellenstruktur für Tabelle `lichter`
+--
+
+CREATE TABLE IF NOT EXISTS `lichter` (
+`LichtID` int(11) NOT NULL,
+  `Art` varchar(255) NOT NULL,
+  `FahrzeugID` varchar(255) NOT NULL,
+  `Preis` decimal(11,0) NOT NULL,
+  `Seite` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -45,8 +59,8 @@ CREATE TABLE IF NOT EXISTS `motor` (
 --
 
 INSERT INTO `motor` (`MotorID`, `Name`, `FahrzeugID`, `Kraftstoff`, `PSZahl`, `kWZahl`, `Preis`, `VerbrauchKombiniert`, `VerbrauchInnerorts`, `VerbrauchAusserorts`, `CO2Emmission`) VALUES
-(1, 'V10 5.2 FSI', 18, 'Benzin', 540, 397, 165000, 11.4, 16.7, 8.4, 272),
-(2, 'V10 plus 5.2 FSI', 18, 'Benzin', 610, 449, 187400, 12.3, 17.5, 9.3, 287),
+(1, 'V10 5.2 FSI', 88, 'Benzin', 540, 397, 165000, 11.4, 16.7, 8.4, 272),
+(2, 'V10 plus 5.2 FSI', 88, 'Benzin', 610, 449, 187400, 12.3, 17.5, 9.3, 287),
 (5, '2.0 TFSI', 11, 'Benzin', 231, 170, 30800, 7.1, 9.2, 5.9, 166),
 (6, '1.4 TFSI cylinder on demand', 1, 'Benzin', 150, 110, 23850, 4.7, 5.9, 4, 109),
 (7, '1.0 TFSI ultra', 1, 'Benzin', 95, 70, 19500, 4.4, 5.4, 3.8, 102),
@@ -85,11 +99,17 @@ INSERT INTO `motor` (`MotorID`, `Name`, `FahrzeugID`, `Kraftstoff`, `PSZahl`, `k
 (40, '2.0 TFSI', 99, 'Benzin', 310, 228, 49100, 7.1, 9.2, 5.9, 164),
 (41, '2.0 TDI ultra', 99, 'Diesel', 184, 135, 35900, 4.2, 4.9, 3.7, 110),
 (42, '2.0 TFSI', 99, 'Benzin', 230, 169, 37150, 6.3, 8.2, 5.2, 146),
-(43, 'V12 plus 6.4 TFSI LPS-Edition', 18, 'Benzin', 1024, 753, 1874000, 13.3, 18.5, 10.3, 333);
+(43, 'V12 plus 6.4 TFSI LPS-Edition', 88, 'Benzin', 1024, 753, 1874000, 13.3, 18.5, 10.3, 333);
 
 --
 -- Indizes der exportierten Tabellen
 --
+
+--
+-- Indizes für die Tabelle `lichter`
+--
+ALTER TABLE `lichter`
+ ADD PRIMARY KEY (`LichtID`);
 
 --
 -- Indizes für die Tabelle `motor`
@@ -101,6 +121,11 @@ ALTER TABLE `motor`
 -- AUTO_INCREMENT für exportierte Tabellen
 --
 
+--
+-- AUTO_INCREMENT für Tabelle `lichter`
+--
+ALTER TABLE `lichter`
+MODIFY `LichtID` int(11) NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT für Tabelle `motor`
 --
