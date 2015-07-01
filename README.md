@@ -10,7 +10,8 @@ Password: **-**
 ## Usage
 
 1. Open the page and sign in or create an account for using the tool.
-2. Choose an existing configuration or create a new one.
+2. Chose a model.
+3. Chose a package if you want. (Optional)
 3. Go through the configuration steps and choose the options you want.
 4. Click on calculate and wait for the price appearing.
 5. Now save this configuration or print it if you want.
