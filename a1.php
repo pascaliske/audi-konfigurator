@@ -32,12 +32,12 @@
 	<header id="header">
 		<div class="steps">
 			<ul>
-				<li class=""><a href="<?php echo strtolower(HOME_DIR.'/'.$core -> getModelName($theID).'/'.$_GET['paket'].'/'); ?>uebersicht/">Übersicht</a></li>
-				<li class="current"><a href="<?php echo strtolower(HOME_DIR.'/'.$core -> getModelName($theID).'/'.$_GET['paket'].'/'); ?>motoren/">Motoren</a></li>
-				<li class=""><a href="<?php echo strtolower(HOME_DIR.'/'.$core -> getModelName($theID).'/'.$_GET['paket'].'/'); ?>exterieur/">Exterieur</a></li>
-				<li class=""><a href="<?php echo strtolower(HOME_DIR.'/'.$core -> getModelName($theID).'/'.$_GET['paket'].'/'); ?>interieur/">Interieur</a></li>
-				<li class=""><a href="<?php echo strtolower(HOME_DIR.'/'.$core -> getModelName($theID).'/'.$_GET['paket'].'/'); ?>sonderausstattung/">Sonderausstattung</a></li>
-				<li class=""><a href="<?php echo strtolower(HOME_DIR.'/'.$core -> getModelName($theID).'/'.$_GET['paket'].'/'); ?>meinaudi/">Mein Audi</a></li>
+				<li class="<?php echo ($_GET['step'] == 'uebersicht') ? 'current': ''; ?>"><a href="<?php echo strtolower(HOME_DIR.'/'.$core -> getModelName($theID).'/'.$_GET['paket'].'/'); ?>uebersicht/">Übersicht</a></li>
+				<li class="<?php echo ($_GET['step'] == 'motoren') ? 'current': ''; ?>"><a href="<?php echo strtolower(HOME_DIR.'/'.$core -> getModelName($theID).'/'.$_GET['paket'].'/'); ?>motoren/">Motoren</a></li>
+				<li class="<?php echo ($_GET['step'] == 'exterieur') ? 'current': ''; ?>"><a href="<?php echo strtolower(HOME_DIR.'/'.$core -> getModelName($theID).'/'.$_GET['paket'].'/'); ?>exterieur/">Exterieur</a></li>
+				<li class="<?php echo ($_GET['step'] == 'interieur') ? 'current': ''; ?>"><a href="<?php echo strtolower(HOME_DIR.'/'.$core -> getModelName($theID).'/'.$_GET['paket'].'/'); ?>interieur/">Interieur</a></li>
+				<li class="<?php echo ($_GET['step'] == 'sonderausstattung') ? 'current': ''; ?>"><a href="<?php echo strtolower(HOME_DIR.'/'.$core -> getModelName($theID).'/'.$_GET['paket'].'/'); ?>sonderausstattung/">Sonderausstattung</a></li>
+				<li class="<?php echo ($_GET['step'] == 'meinaudi') ? 'current': ''; ?>"><a href="<?php echo strtolower(HOME_DIR.'/'.$core -> getModelName($theID).'/'.$_GET['paket'].'/'); ?>meinaudi/">Mein Audi</a></li>
 			</ul>
 		</div>
 	</header>
@@ -48,31 +48,32 @@
 					echo $_GET['step'];
 					echo $db -> getSpecificField('modelle', 'Name', 'ModellID', $theID);
 				?>
-
-				<input type="text" placeholder="text" />
-				<input type="email" placeholder="email" />
-				<input type="password" placeholder="password" />
-				<input type="url" placeholder="url" />
-				<input type="date" placeholder="date" />
-				<input type="month" placeholder="month" />
-				<input type="week" placeholder="week" />
-				<textarea></textarea>
-				<select>
-					<option value="">Option 1</option>
-					<option value="">Option 2</option>
-					<option value="">Option 3</option>
-					<option value="">Option 4</option>
-					<option value="">Option 5</option>
-				</select>
-				<input type="search" placeholder="search" />
-				<input type="submit" placeholder="Test" />
 			</div>
 			<div id="heading">
 				<h1>Überschrift</h1>
 				<p><?php $db -> test('test'); ?></p>
 			</div>
 			<form action="" method="">
+				<?
 				<div id="items">
+					<input type="text" placeholder="text" />
+					<input type="email" placeholder="email" />
+					<input type="password" placeholder="password" />
+					<input type="url" placeholder="url" />
+					<input type="date" placeholder="date" />
+					<input type="month" placeholder="month" />
+					<input type="week" placeholder="week" />
+					<textarea></textarea>
+					<select>
+						<option value="">Option 1</option>
+						<option value="">Option 2</option>
+						<option value="">Option 3</option>
+						<option value="">Option 4</option>
+						<option value="">Option 5</option>
+					</select>
+					<input type="search" placeholder="search" />
+					<input type="submit" placeholder="Test" />
+
 					<label id="item1" class="item" for="">
 						<div class="cmd">
 							<input type="checkbox" name="" />

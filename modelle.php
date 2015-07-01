@@ -32,7 +32,7 @@
 				<?php echo $core -> getModelName(1); ?>
 				<ul>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(1, 1); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(1, 1); ?>meinaudi/">
 							<!-- <img src="http://placehold.it/370x220/&text=Paket+1" /> -->
 							<div>
 								<h3><?php echo $core -> getPaketName(1); ?></h3>
@@ -41,7 +41,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(1, 2); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(1, 2); ?>meinaudi/">
 							<!-- <img src="http://placehold.it/370x220/&text=Paket+2" /> -->
 							<div>
 								<h3><?php echo $core -> getPaketName(2); ?></h3>
@@ -50,7 +50,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(1, 3); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(1, 3); ?>meinaudi/">
 							<!-- <img src="http://placehold.it/370x220/&text=Paket+3" /> -->
 							<div>
 								<h3><?php echo $core -> getPaketName(3); ?></h3>
@@ -59,7 +59,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(1, 4); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(1, 4); ?>meinaudi/">
 							<!-- <img src="http://placehold.it/370x220/&text=Paket+4" /> -->
 							<div>
 								<h3><?php echo $core -> getPaketName(4); ?></h3>
@@ -68,7 +68,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(1, 0); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(1, 0); ?>uebersicht/">
 							<!-- <img src="http://placehold.it/370x220/&text=Kein+Paket" /> -->
 							<div>
 								<h3>Ohne Paket</h3>
@@ -82,7 +82,7 @@
 				<?php echo $core -> getModelName(3); ?>
 				<ul>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(3, 1); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(3, 1); ?>meinaudi/">
 							<!-- <img src="http://placehold.it/370x220/&text=Paket+1" /> -->
 							<div>
 								<h3><?php echo $core -> getPaketName(1); ?></h3>
@@ -91,7 +91,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(3, 2); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(3, 2); ?>meinaudi/">
 							<!-- <img src="http://placehold.it/370x220/&text=Paket+2" /> -->
 							<div>
 								<h3><?php echo $core -> getPaketName(2); ?></h3>
@@ -100,7 +100,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(3, 3); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(3, 3); ?>meinaudi/">
 							<!-- <img src="http://placehold.it/370x220/&text=Paket+3" /> -->
 							<div>
 								<h3><?php echo $core -> getPaketName(3); ?></h3>
@@ -109,7 +109,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(3, 4); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(3, 4); ?>meinaudi/">
 							<!-- <img src="http://placehold.it/370x220/&text=Paket+4" /> -->
 							<div>
 								<h3><?php echo $core -> getPaketName(4); ?></h3>
@@ -118,7 +118,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(3, 0); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(3, 0); ?>uebersicht/">
 							<!-- <img src="http://placehold.it/370x220/&text=Kein+Paket" /> -->
 							<div>
 								<h3>Ohne Paket</h3>
@@ -132,7 +132,7 @@
 				<?php echo $core -> getModelName(4); ?>
 				<ul>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(4, 1); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(4, 1); ?>meinaudi/">
 							<!-- <img src="http://placehold.it/370x220/&text=Paket+1" /> -->
 							<div>
 								<h3><?php echo $core -> getPaketName(1); ?></h3>
@@ -141,7 +141,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(4, 2); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(4, 2); ?>meinaudi/">
 							<!-- <img src="http://placehold.it/370x220/&text=Paket+2" /> -->
 							<div>
 								<h3><?php echo $core -> getPaketName(2); ?></h3>
@@ -150,7 +150,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(4, 3); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(4, 3); ?>meinaudi/">
 							<!-- <img src="http://placehold.it/370x220/&text=Paket+3" /> -->
 							<div>
 								<h3><?php echo $core -> getPaketName(3); ?></h3>
@@ -159,7 +159,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(4, 4); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(4, 4); ?>meinaudi/">
 							<!-- <img src="http://placehold.it/370x220/&text=Paket+4" /> -->
 							<div>
 								<h3><?php echo $core -> getPaketName(4); ?></h3>
@@ -168,7 +168,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(4, 0); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(4, 0); ?>uebersicht/">
 							<!-- <img src="http://placehold.it/370x220/&text=Kein+Paket" /> -->
 							<div>
 								<h3>Ohne Paket</h3>
@@ -182,7 +182,7 @@
 				<?php echo $core -> getModelName(5); ?>
 				<ul>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(5, 1); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(5, 1); ?>meinaudi/">
 							<!-- <img src="http://placehold.it/370x220/&text=Paket+1" /> -->
 							<div>
 								<h3><?php echo $core -> getPaketName(1); ?></h3>
@@ -191,7 +191,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(5, 2); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(5, 2); ?>meinaudi/">
 							<!-- <img src="http://placehold.it/370x220/&text=Paket+2" /> -->
 							<div>
 								<h3><?php echo $core -> getPaketName(2); ?></h3>
@@ -200,7 +200,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(5, 3); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(5, 3); ?>meinaudi/">
 							<!-- <img src="http://placehold.it/370x220/&text=Paket+3" /> -->
 							<div>
 								<h3><?php echo $core -> getPaketName(3); ?></h3>
@@ -209,7 +209,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(5, 4); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(5, 4); ?>meinaudi/">
 							<!-- <img src="http://placehold.it/370x220/&text=Paket+4" /> -->
 							<div>
 								<h3><?php echo $core -> getPaketName(4); ?></h3>
@@ -218,7 +218,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(5, 0); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(5, 0); ?>uebersicht/">
 							<!-- <img src="http://placehold.it/370x220/&text=Kein+Paket" /> -->
 							<div>
 								<h3>Ohne Paket</h3>
@@ -232,7 +232,7 @@
 				<?php echo $core -> getModelName(6); ?>
 				<ul>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(6, 1); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(6, 1); ?>meinaudi/">
 							<!-- <img src="http://placehold.it/370x220/&text=Paket+1" /> -->
 							<div>
 								<h3><?php echo $core -> getPaketName(1); ?></h3>
@@ -241,7 +241,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(6, 2); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(6, 2); ?>meinaudi/">
 							<!-- <img src="http://placehold.it/370x220/&text=Paket+2" /> -->
 							<div>
 								<h3><?php echo $core -> getPaketName(2); ?></h3>
@@ -250,7 +250,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(6, 3); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(6, 3); ?>meinaudi/">
 							<!-- <img src="http://placehold.it/370x220/&text=Paket+3" /> -->
 							<div>
 								<h3><?php echo $core -> getPaketName(3); ?></h3>
@@ -259,7 +259,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(6, 4); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(6, 4); ?>meinaudi/">
 							<!-- <img src="http://placehold.it/370x220/&text=Paket+4" /> -->
 							<div>
 								<h3><?php echo $core -> getPaketName(4); ?></h3>
@@ -268,7 +268,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(6, 0); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(6, 0); ?>uebersicht/">
 							<!-- <img src="http://placehold.it/370x220/&text=Kein+Paket" /> -->
 							<div>
 								<h3>Ohne Paket</h3>
@@ -282,7 +282,7 @@
 				<?php echo $core -> getModelName(7); ?>
 				<ul>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(7, 1); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(7, 1); ?>meinaudi/">
 							<!-- <img src="http://placehold.it/370x220/&text=Paket+1" /> -->
 							<div>
 								<h3><?php echo $core -> getPaketName(1); ?></h3>
@@ -291,7 +291,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(7, 2); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(7, 2); ?>meinaudi/">
 							<!-- <img src="http://placehold.it/370x220/&text=Paket+2" /> -->
 							<div>
 								<h3><?php echo $core -> getPaketName(2); ?></h3>
@@ -300,7 +300,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(7, 3); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(7, 3); ?>meinaudi/">
 							<!-- <img src="http://placehold.it/370x220/&text=Paket+3" /> -->
 							<div>
 								<h3><?php echo $core -> getPaketName(3); ?></h3>
@@ -309,7 +309,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(7, 4); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(7, 4); ?>meinaudi/">
 							<!-- <img src="http://placehold.it/370x220/&text=Paket+4" /> -->
 							<div>
 								<h3><?php echo $core -> getPaketName(4); ?></h3>
@@ -318,7 +318,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(7, 0); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(7, 0); ?>uebersicht/">
 							<!-- <img src="http://placehold.it/370x220/&text=Kein+Paket" /> -->
 							<div>
 								<h3>Ohne Paket</h3>
@@ -332,7 +332,7 @@
 				<?php echo $core -> getModelName(8); ?>
 				<ul>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(8, 1); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(8, 1); ?>meinaudi/">
 							<!-- <img src="http://placehold.it/370x220/&text=Paket+1" /> -->
 							<div>
 								<h3><?php echo $core -> getPaketName(1); ?></h3>
@@ -341,7 +341,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(8, 2); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(8, 2); ?>meinaudi/">
 							<!-- <img src="http://placehold.it/370x220/&text=Paket+2" /> -->
 							<div>
 								<h3><?php echo $core -> getPaketName(2); ?></h3>
@@ -350,7 +350,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(8, 3); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(8, 3); ?>meinaudi/">
 							<!-- <img src="http://placehold.it/370x220/&text=Paket+3" /> -->
 							<div>
 								<h3><?php echo $core -> getPaketName(3); ?></h3>
@@ -359,7 +359,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(8, 4); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(8, 4); ?>meinaudi/">
 							<!-- <img src="http://placehold.it/370x220/&text=Paket+4" /> -->
 							<div>
 								<h3><?php echo $core -> getPaketName(4); ?></h3>
@@ -368,7 +368,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(8, 0); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(8, 0); ?>uebersicht/">
 							<!-- <img src="http://placehold.it/370x220/&text=Kein+Paket" /> -->
 							<div>
 								<h3>Ohne Paket</h3>
@@ -382,7 +382,7 @@
 				<?php echo $core -> getModelName(99); ?>
 				<ul>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(99, 1); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(99, 1); ?>meinaudi/">
 							<!-- <img src="http://placehold.it/370x220/&text=Paket+1" /> -->
 							<div>
 								<h3><?php echo $core -> getPaketName(1); ?></h3>
@@ -391,7 +391,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(99, 2); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(99, 2); ?>meinaudi/">
 							<!-- <img src="http://placehold.it/370x220/&text=Paket+2" /> -->
 							<div>
 								<h3><?php echo $core -> getPaketName(2); ?></h3>
@@ -400,7 +400,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(99, 3); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(99, 3); ?>meinaudi/">
 							<!-- <img src="http://placehold.it/370x220/&text=Paket+3" /> -->
 							<div>
 								<h3><?php echo $core -> getPaketName(3); ?></h3>
@@ -409,7 +409,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(99, 4); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(99, 4); ?>meinaudi/">
 							<!-- <img src="http://placehold.it/370x220/&text=Paket+4" /> -->
 							<div>
 								<h3><?php echo $core -> getPaketName(4); ?></h3>
@@ -418,7 +418,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(99, 0); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(99, 0); ?>uebersicht/">
 							<!-- <img src="http://placehold.it/370x220/&text=Kein+Paket" /> -->
 							<div>
 								<h3>Ohne Paket</h3>
@@ -432,7 +432,7 @@
 				<?php echo $core -> getModelName(88); ?>
 				<ul>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(88, 1); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(88, 1); ?>meinaudi/">
 							<!-- <img src="http://placehold.it/370x220/&text=Paket+1" /> -->
 							<div>
 								<h3><?php echo $core -> getPaketName(1); ?></h3>
@@ -441,7 +441,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(88, 2); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(88, 2); ?>meinaudi/">
 							<!-- <img src="http://placehold.it/370x220/&text=Paket+2" /> -->
 							<div>
 								<h3><?php echo $core -> getPaketName(2); ?></h3>
@@ -450,7 +450,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(88, 3); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(88, 3); ?>meinaudi/">
 							<!-- <img src="http://placehold.it/370x220/&text=Paket+3" /> -->
 							<div>
 								<h3><?php echo $core -> getPaketName(3); ?></h3>
@@ -459,7 +459,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(88, 4); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(88, 4); ?>meinaudi/">
 							<!-- <img src="http://placehold.it/370x220/&text=Paket+4" /> -->
 							<div>
 								<h3><?php echo $core -> getPaketName(4); ?></h3>
@@ -468,7 +468,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(88, 0); ?>">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(88, 0); ?>uebersicht/">
 							<!-- <img src="http://placehold.it/370x220/&text=Kein+Paket" /> -->
 							<div>
 								<h3>Ohne Paket</h3>

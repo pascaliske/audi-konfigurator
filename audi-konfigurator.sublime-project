@@ -2,13 +2,13 @@
 	"folders":
 	[
 		{
-			"path": "./"
+			"path": "."
 		},
 		{
-			"path": "bin/sass/"
+			"path": "bin/sass"
 		},
 		{
-			"path": "bin/js/"
+			"path": "bin/js"
 		}
 	]
 }
