@@ -24,7 +24,7 @@
 		$password = $_POST['password'];
 
 		$correct = false;
-		foreach ($db -> getAllDataFromTable('users') as $user) {
+		foreach ($db -> getAllDataFromTable('benutzer', null) as $user) {
 			if($username == $user['Username'] && $password == $user['Password']) {
 				$correct = true;
 				break;

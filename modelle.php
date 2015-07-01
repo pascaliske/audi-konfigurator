@@ -68,7 +68,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(1, 0); ?>uebersicht/">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(1, 0); ?>motoren/">
 							<!-- <img src="http://placehold.it/370x220/&text=Kein+Paket" /> -->
 							<div>
 								<h3>Ohne Paket</h3>
@@ -118,7 +118,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(3, 0); ?>uebersicht/">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(3, 0); ?>motoren/">
 							<!-- <img src="http://placehold.it/370x220/&text=Kein+Paket" /> -->
 							<div>
 								<h3>Ohne Paket</h3>
@@ -168,7 +168,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(4, 0); ?>uebersicht/">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(4, 0); ?>motoren/">
 							<!-- <img src="http://placehold.it/370x220/&text=Kein+Paket" /> -->
 							<div>
 								<h3>Ohne Paket</h3>
@@ -218,7 +218,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(5, 0); ?>uebersicht/">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(5, 0); ?>motoren/">
 							<!-- <img src="http://placehold.it/370x220/&text=Kein+Paket" /> -->
 							<div>
 								<h3>Ohne Paket</h3>
@@ -268,7 +268,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(6, 0); ?>uebersicht/">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(6, 0); ?>motoren/">
 							<!-- <img src="http://placehold.it/370x220/&text=Kein+Paket" /> -->
 							<div>
 								<h3>Ohne Paket</h3>
@@ -318,7 +318,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(7, 0); ?>uebersicht/">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(7, 0); ?>motoren/">
 							<!-- <img src="http://placehold.it/370x220/&text=Kein+Paket" /> -->
 							<div>
 								<h3>Ohne Paket</h3>
@@ -368,7 +368,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(8, 0); ?>uebersicht/">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(8, 0); ?>motoren/">
 							<!-- <img src="http://placehold.it/370x220/&text=Kein+Paket" /> -->
 							<div>
 								<h3>Ohne Paket</h3>
@@ -418,7 +418,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(99, 0); ?>uebersicht/">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(99, 0); ?>motoren/">
 							<!-- <img src="http://placehold.it/370x220/&text=Kein+Paket" /> -->
 							<div>
 								<h3>Ohne Paket</h3>
@@ -468,7 +468,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(88, 0); ?>uebersicht/">
+						<a href="<?php echo HOME_DIR.$core -> generatePaketURL(88, 0); ?>motoren/">
 							<!-- <img src="http://placehold.it/370x220/&text=Kein+Paket" /> -->
 							<div>
 								<h3>Ohne Paket</h3>

@@ -18,7 +18,7 @@ class db extends core {
 	// insert new row
 	public function insertUser($user=null, $password=null) {
 		// query
-		$this -> query = "INSERT INTO users (user, password) VALUES (?, ?);";
+		$this -> query = "INSERT INTO benutzer (user, password) VALUES (?, ?);";
 		
 		// prepare stmt
 		$stmt = $this -> conn -> prepare($this -> query);
@@ -52,9 +52,9 @@ class db extends core {
 	}
 
 	// get all data from table
-	public function getAllDataFromTable($table) {
+	public function getAllDataFromTable($table, $condition=null) {
 		// query
-		$this -> query = "SELECT * FROM ".$table;
+		$this -> query = ($condition == null) ? "SELECT * FROM ".$table : "SELECT * FROM ".$table." ".$condition;
 
 		// call data
 		$output = array();
@@ -63,21 +63,6 @@ class db extends core {
 			$output[] = $array;
 		}
 		return $output;
-/*
-		try {
-			if($result = $this -> conn -> query($this -> query)) {
-				$output = array();
-				$i = 0;
-				while ($array = $result -> fetch_array()) {
-					$output[$i] = $array[0].', '.$array[1];
-					$i++;
-				}
-				
-			} else throw new Exception($this -> conn -> errno.": ".$this -> conn -> error);
-		} catch(Exception $e) {
-			// output possible errors
-			$this -> error(null, $e -> getMessage());
-		}*/
 	}
 
 	// get specific field
