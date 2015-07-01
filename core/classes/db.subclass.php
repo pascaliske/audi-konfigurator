@@ -16,12 +16,12 @@ class db extends core {
 	}
 
 	// insert new row
-	public function insertRow($keys, $values) {
+	public function insertUser($user=null, $password=null) {
 		// query
-		$this -> query = "INSERT INTO users (id, user, password) VALUES (?, ?, ?)";
-
-		// prepare query
-		$stmt = $this -> conn -> prepare($query);
+		$this -> query = "INSERT INTO users (user, password) VALUES (?, ?);";
+		
+		// prepare stmt
+		$stmt = $this -> conn -> prepare($this -> query);
 
 		// check stmt for errors
 		try {
@@ -31,17 +31,24 @@ class db extends core {
 			$this -> error(null, $e -> getMessage());
 		}
 
-		// bind params to query
-		$stmt -> bind_param('iss', $id, $username, $password);
+		// check function arguments
+		if($user != null && $password != null) {
+			// bind params to query
+			$stmt -> bind_param('ss', $user, $password);
 
-		// execute query
-		$stmt -> execute();
+			// execute query
+			$stmt -> execute();
 
-		// close stmt
-		$stmt -> close();
+			// close stmt
+			$stmt -> close();
 
-		// clear query
-		$this -> query = null;
+			// clear query
+			$this -> query = null;
+
+			echo 'Inserted user: '.$user.', '.$password;
+		} else {
+			$this -> error(null, 'Arguments are not correct! ('.$user.', '.$password.')');
+		}
 	}
 
 	// get all data from table
@@ -50,22 +57,60 @@ class db extends core {
 		$this -> query = "SELECT * FROM ".$table;
 
 		// call data
+		$output = array();
+		$result = $this -> executeQuery(true);
+		while($array = $result -> fetch_array()) {
+			$output[] = $array;
+		}
+		return $output;
+/*
 		try {
 			if($result = $this -> conn -> query($this -> query)) {
-				while ($array = $result -> fetch_assoc()) {
-					echo 'id = '.$array['id'].'<br />';
-					echo 'user = '.$array['user'].'<br />';
-					echo 'password = '.$array['password'].'<br /><br />';
+				$output = array();
+				$i = 0;
+				while ($array = $result -> fetch_array()) {
+					$output[$i] = $array[0].', '.$array[1];
+					$i++;
 				}
+				
 			} else throw new Exception($this -> conn -> errno.": ".$this -> conn -> error);
 		} catch(Exception $e) {
 			// output possible errors
 			$this -> error(null, $e -> getMessage());
+		}*/
+	}
+
+	// get specific field
+	public function getSpecificField($table, $column, $idname, $id) {
+		// query
+		$this -> query = "SELECT ".$column." FROM ".$table." WHERE ".$idname." = ".$id;
+
+		$result = $this -> executeQuery(true) -> fetch_array();
+
+		return $result[0];
+	}
+
+	// execute query -> returns result object
+	public function executeQuery($type=true) {
+		if($type) {
+			// call data
+			try {
+				if($result = $this -> conn -> query($this -> query)) {
+					return $result;
+				} else throw new Exception($this -> conn -> errno.": ".$this -> conn -> error);
+			} catch(Exception $e) {
+				// output possible errors
+				$this -> error(null, $e -> getMessage());
+			}
 		}
 	}
 
-	public function test($msg) {
-		echo $msg;
+	public function test($msg='') {
+		if($msg != '') {
+			return $msg;
+		} else {
+			return 'test';
+		}
 	}
 }
 ?>

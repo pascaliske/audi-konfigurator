@@ -1,6 +1,5 @@
-#menu {
-	$height: 40px;
-	@include size(100%, $height);
+#modelle {
+	@include size(100%, 100%);
 	position: fixed;
 	top: 0;
 	background: $primary;
@@ -8,33 +7,74 @@
 	z-index: layer('ontop');
 	@include transition(height .4s);
 
-	&:hover {
-		height: 300px;
-	}
-
 	& * {
 		color: $lighttext;
 	}
 
 	ul {
-		@include size(100%, $height);
+		@include size(100%, 40px);
 		@include flexbox();
 		justify-content: center;
 
 		li {
 			width: 80px;
-			line-height: $height;
+			line-height: 40px;
 			display: inline-block;
 			text-align: center;
+			cursor: pointer;
 
 			&:hover {
 				background: transparent(white, .1);
+			}
+
+			&:hover > ul {
+				height: calc(100% - 40px);
+				opacity: 1;
 			}
 
 			a {
 				@include size(100%);
 				display: block;
 				text-decoration: none;
+			}
+
+			ul {
+				@include size(100%, 0);
+				position: fixed;
+				top: 40px;
+				left: 0;
+				@include flexbox();
+				@include transition(opacity .3s);
+				background: transparent(white, .1);
+				overflow: hidden;
+				opacity: 0;
+
+				li {
+					@include flexbox(column);
+					@include flex-value(1);
+					height: calc(100% - 20px);
+					padding: 10px;
+					text-align: left;
+					border-top: 4px transparent solid;
+
+					&:hover {
+						background: none;
+						border-top: 4px white solid;
+						border-bottom: 4px white solid;
+					}
+
+					img {
+						@include size(100%, 220px);
+						padding: 40px 0;
+					}
+
+					div {
+						padding: 10px;
+						p {
+							@include flex-value(1);
+						}
+					}
+				}
 			}
 		}
 	}
@@ -43,14 +83,14 @@
 #header {
 	@include size(100%, 40px);
 	position: fixed;
-	top: 40px;
+	top: 0;
 	background: $primary;
 	font-size: 1rem;
 	z-index: layer('header');
 
 	div:not(.steps) {
-		position: absolute !important;
-		top: 18px !important;
+		//position: absolute !important;
+		//top: 18px !important;
 	}
 
 	.steps {
@@ -94,7 +134,7 @@
 #wrapper {
 	width: 90%;
 	height: auto;
-	min-height: 100%;
+	min-height: 300px;
 	margin: 100px auto 0;
 	@include flexbox();
 	background: $secondary;
@@ -105,14 +145,82 @@
 		margin: 40px auto 0;
 	}
 
+	&.login {
+		@include size(100%);
+		margin: 0;
+		padding: 0;
+		background: url(images/login.jpg);
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: top center;
+		background-color: black;
+
+		form {
+			$height: 30px;
+			@include size(1000px, $height+20px);
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin: -25px -500px;
+
+			input {
+				width: 220px;
+				position: absolute;
+			}
+
+			.left {
+				left: 0;
+			}
+
+			.right {
+				width: 170px;
+				right: 40px;
+				opacity: 0;
+				&.visible {
+					opacity: 1;
+				}
+			}
+
+			.submit {
+				@include size($height);
+				position: absolute;
+				right: 0;
+				margin: 10px 10px;
+				opacity: 0;
+				border: none;
+				-webkit-appearance: none;
+				background: white;
+				@include transition(all .4s);
+
+				&.visible {
+					opacity: 1;
+				}
+
+				&:hover {
+					cursor: pointer;
+
+					&::after {
+						right: -3px;
+					}
+				}
+
+				&::after {
+					@include size(100%);
+					line-height: $height+3px;
+					position: absolute;
+					top: 0;
+					right: 0;
+					content: "\25B6";
+					font-size: small;
+					@include transition(all .3s);
+				}
+			}
+		}
+	}
+
 	#content {
 		@include flex-value(1);
 		@include flex-order(1);
-
-		#heading {
-			padding: 20px 20px 0 20px;
-		}
-
 		#items {
 			@include flexbox(column);
 			padding: 20px 0;
@@ -212,7 +320,7 @@
 
 			&.scroll {
 				position: fixed;
-				top: 100px;
+				top: 60px;
 			}
 
 			.progress {

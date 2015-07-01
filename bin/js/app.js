@@ -6,7 +6,7 @@ $(function() {
 	$(window).scroll(function() {
 		var scroll = $(window).scrollTop();
 
-		if(scroll > 20) {
+		if(scroll > 60) {
 			$('#sidebar .price').addClass('scroll');
 		} else {
 			$('#sidebar .price').removeClass('scroll');

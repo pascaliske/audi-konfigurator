@@ -29,6 +29,10 @@
 		define("DB_NAME", "audi-konfigurator");
 	}
 
+	if(!defined("HOME_DIR")) {
+		define("HOME_DIR", '//'.$_SERVER['SERVER_NAME'].dirname($_SERVER['PHP_SELF']));
+	}
+
 	// DEBUGMODE
 	if(!defined("DEBUGMODE")) {
 		define("DEBUGMODE", true);

@@ -9,9 +9,41 @@ class core {
 	public $db;
 	
 	function __construct() {
+		// init new db connection
 		$this -> db = new db(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 	}
+	
+	// modell functions
+	public function getModelName($id=null) {
+		if($id != null) {
+			return $this -> db -> getSpecificField('modelle', 'Name', 'ModellID', $id);
+		}
+	}
 
+	public function generateModelURL($model=null) {
+		if($model != null) {
+			return strtolower('/'.$this -> db -> getSpecificField('modelle', 'Name', 'ModellID', $model).'/');
+		}
+	}
+
+	// paket functions
+	public function getPaketName($id) {
+		if($id != null) {
+			return $this -> db -> getSpecificField('pakete', 'Name', 'PaketID', $id);
+		}
+	}
+
+	public function generatePaketURL($model=null, $paket=null) {
+		if($model != null) {
+			if($paket == 0) {
+				return strtolower($this -> generateModelURL($model).'none/');
+			} else {
+				return strtolower($this -> generateModelURL($model).$this -> db -> getSpecificField('pakete', 'Name', 'PaketID', $paket).'/');
+			}
+		}
+	}
+
+	// debug functions
 	public function error($errno, $error) {
 		if($errno !== null) {
 			if(DEBUGMODE) $this -> console('error', $errno.': '.$error);

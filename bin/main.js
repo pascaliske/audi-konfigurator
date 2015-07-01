@@ -6,7 +6,7 @@ $(function() {
 	$(window).scroll(function() {
 		var scroll = $(window).scrollTop();
 
-		if(scroll > 20) {
+		if(scroll > 60) {
 			$('#sidebar .price').addClass('scroll');
 		} else {
 			$('#sidebar .price').removeClass('scroll');
@@ -32,6 +32,25 @@ $(function() {
 
 	// output rounded percent value to sidebar
 	$('#sidebar .progress p').html(Math.floor(progress)+'<span>%</span>');
+});
+// selfload function
+$(function() {
+
+	// check username value
+	$('#wrapper form .left').bind('change paste keyup', function() {
+		if($(this).val().length > 0) {
+			$('#wrapper form .right').addClass('visible');
+		} else {
+			$('#wrapper form .right').removeClass('visible');
+		}
+	});
+	$('#wrapper form .right').bind('change paste keyup', function() {
+		if($(this).val().length > 0) {
+			$('#wrapper form .submit').addClass('visible');
+		} else {
+			$('#wrapper form .submit').removeClass('visible');
+		}
+	});
 });
 /* http://nanobar.micronube.com/  ||  https://github.com/jacoborus/nanobar/    MIT LICENSE */
 var Nanobar = (function () {
