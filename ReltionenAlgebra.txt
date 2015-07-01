@@ -1,0 +1,28 @@
+Relationen Schema Audi Konfiguration:
+
+Felgen(FelgenID; Preis; Groesse; Farbe; Hersteller)
+Reifen(ReifenID; Groesse; Preise; Hersteller)
+ReifenFelge(FelgenID; ReifenID)
+Parkete(ParketID; Beschreibung; Name)
+Lichter(LichtID; Preis, Art, Seite)
+Exterieur(ExterieurID; Lackfarbe; Effekt)
+Motor(MotorID; Hersteller; VerbrauchInnerorts; CO2Emission; VerbrauchKombiniert; KWZahl; Preis, PSZahl; VerbrauchAuserorts)
+Sitze(SitzID; Preis; Name)
+Lenkrad(LenkradID; Preis; Name)
+Entertainmensystem(EntertainmentsystemID; Name; Preis)
+Assistezsysteme(AssistezsystemeID; Name; Preis)
+Interieur(InterieurID)
+Zubehör(ZubehörID; Preis; Name)
+ParketZubehör(ParketID; ExerieurID; MotorID; SitzID; LenkradID; EntertaunmentsystemID; AssistenzsystemID; InterieurID; ZubehörID; ReifenID; FelgenID)
+Modell(ModellID; Name)
+ModellZusammenStellung(ModellID; ParketID; ExerieurID; MotorID; SitzID; LenkradID; EntertaunmentsystemID; AssistenzsystemID; InterieurID; ZubehörID; ReifenID; FelgenID)
+
+Relationen Algebra
+Alle Modelle mit Reifen von „…“
+ π[Name; ModellID; ReifenID](σ[„…“](Reifen)><(Modell)) 
+Alle Reifen deren Felgen Preis über 200€
+ π[Name; ReifenID; FelgenID; Preis](σ[<200](Felgen)><(Reifen))
+Das Zubehör zum Sport Parket
+ π[Name](σ[Sport](Parkete) >< (Zubehör))
+Alle Modelle mit der Lackfarbe Grün
+ π[Farbe, Name](σ[„Grün“](Farbe) >< (Modelle))
