@@ -6,16 +6,16 @@ ReifenFelge(FelgenID; ReifenID)
 Parkete(ParketID; Beschreibung; Name)
 Lichter(LichtID; Preis, Art, Seite)
 Exterieur(ExterieurID; Lackfarbe; Effekt)
-Motoren(MotorID; Hersteller; VerbrauchInnerorts; CO2Emission; VerbrauchKombiniert; KWZahl; Preis, PSZahl; VerbrauchAuserorts; FahrzeugID)
+Motoren(MotorID; Hersteller; VerbrauchInnerorts; CO2Emission; VerbrauchKombiniert; KWZahl; Preis, PSZahl; VerbrauchAuserorts; ModellID)
 Sitze(SitzID; Preis; Name)
 Lenkrad(LenkradID; Preis; Name)
 Entertainmensystem(EntertainmentsystemID; Name; Preis)
 Assistezsysteme(AssistezsystemeID; Name; Preis)
 Interieur(InterieurID)
 Zubehör(ZubehörID; Preis; Name)
-ParketZubehör(ParketID; ExerieurID; MotorID; SitzID; LenkradID; EntertaunmentsystemID; AssistenzsystemID; InterieurID; ZubehörID; ReifenID)
+ParketZusammenstellung(ParketID; ExerieurID; MotorID; SitzID; LenkradID; EntertaunmentsystemID; AssistenzsystemID; InterieurID; ZubehörID; ReifenID)
 Modell(ModellID; Name)
-ModellZusammenStellung(ModellID; ParketID; ExerieurID; MotorID; SitzID; LenkradID; EntertaunmentsystemID; AssistenzsystemID; InterieurID; ZubehörID; ReifenID; FelgenID)
+
 
 
 Relationen Algebra:
