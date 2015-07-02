@@ -6,20 +6,22 @@ ReifenFelge(FelgenID; ReifenID)
 Parkete(ParketID; Beschreibung; Name)
 Lichter(LichtID; Preis, Art, Seite)
 Exterieur(ExterieurID; Lackfarbe; Effekt)
-Motor(MotorID; Hersteller; VerbrauchInnerorts; CO2Emission; VerbrauchKombiniert; KWZahl; Preis, PSZahl; VerbrauchAuserorts)
+Motoren(MotorID; Hersteller; VerbrauchInnerorts; CO2Emission; VerbrauchKombiniert; KWZahl; Preis, PSZahl; VerbrauchAuserorts; FahrzeugID)
 Sitze(SitzID; Preis; Name)
 Lenkrad(LenkradID; Preis; Name)
 Entertainmensystem(EntertainmentsystemID; Name; Preis)
 Assistezsysteme(AssistezsystemeID; Name; Preis)
 Interieur(InterieurID)
 Zubehör(ZubehörID; Preis; Name)
-ParketZubehör(ParketID; ExerieurID; MotorID; SitzID; LenkradID; EntertaunmentsystemID; AssistenzsystemID; InterieurID; ZubehörID; ReifenID; FelgenID)
+ParketZubehör(ParketID; ExerieurID; MotorID; SitzID; LenkradID; EntertaunmentsystemID; AssistenzsystemID; InterieurID; ZubehörID; ReifenID)
 Modell(ModellID; Name)
 ModellZusammenStellung(ModellID; ParketID; ExerieurID; MotorID; SitzID; LenkradID; EntertaunmentsystemID; AssistenzsystemID; InterieurID; ZubehörID; ReifenID; FelgenID)
 
-Relationen Algebra
-Alle Modelle mit Reifen von „…“
- π[Name; ModellID; ReifenID](σ[„…“](Reifen)><(Modell)) 
+
+Relationen Algebra:
+
+Alle Modelle mit Reifen von "Bridgestone"
+ π[Name; ModellID; ReifenID](σ[„Bridgestone“](Reifen)><(Modell)) 
 Alle Reifen deren Felgen Preis über 200€
  π[Name; ReifenID; FelgenID; Preis](σ[<200](Felgen)><(Reifen))
 Das Zubehör zum Sport Parket
