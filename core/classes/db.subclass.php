@@ -90,6 +90,13 @@ class db extends core {
 		}
 	}
 
+	// format prices from the database
+	public function formatPrice($price=null) {
+		if($price != null) {
+			return number_format($price, 2, ',', '.').' EUR';
+		}
+	}
+
 	public function test($msg='') {
 		if($msg != '') {
 			return $msg;

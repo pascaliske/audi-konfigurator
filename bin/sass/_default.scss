@@ -52,26 +52,42 @@
 				li {
 					@include flexbox(column);
 					@include flex-value(1);
-					height: calc(100% - 20px);
-					padding: 10px;
+					height: 100%;
+					position: relative;
 					text-align: left;
 					border-top: 4px transparent solid;
+					background: black !important;
 
 					&:hover {
-						background: none;
 						border-top: 4px white solid;
 						border-bottom: 4px white solid;
 					}
 
-					img {
-						@include size(100%, 220px);
-						padding: 40px 0;
+					&:hover > .background {
+						opacity: .4;
 					}
 
-					div {
-						padding: 10px;
-						p {
-							@include flex-value(1);
+					.background {
+						@include size(100%);
+						position: absolute;
+						top: 0;
+						left: 0;
+						background-position: center !important;
+						background-size: cover !important;
+						background-repeat: no-repeat !important;
+						z-index: 0;
+						opacity: 1;
+						@include transition(opacity .2s);
+					}
+
+					a {
+						z-index: 1;
+
+						div {
+							padding: 10px;
+							p {
+								@include flex-value(1);
+							}
 						}
 					}
 				}
@@ -221,6 +237,7 @@
 	#content {
 		@include flex-value(1);
 		@include flex-order(1);
+		padding: 20px;
 		#items {
 			@include flexbox(column);
 			padding: 20px 0;
@@ -229,6 +246,7 @@
 				@include size(calc(100% - 40px), 150px);
 				padding: 20px;
 				@include flexbox();
+				position: relative;
 
 				&:hover {
 					background: transparent($primary, .3) !important;
@@ -263,6 +281,44 @@
 					}
 				}
 
+				&.item-color {
+					.color {
+						@include size(220px, auto);
+						margin: 0 30px 0 10px;
+						@include flex-order(2);
+						border: 1px $borders solid;
+					}
+
+					&.Dynamitrot > .color {
+						background: red !important;
+					}
+					&.Ibisweiss > .color {
+						background: white !important;
+					}
+					&.Carmouflagegruen > .color {
+						background: darken(green, 5%) !important;
+					}
+					&.Suzukagrau > .color {
+						background: grey !important;
+					}
+					&.Daytonagrau > .color {
+						background: lightgrey !important;
+					}
+					&.Arablau > .color {
+						background: darken(blue, 30%) !important;
+					}
+					&.Classicrot > .color {
+						background: lighten(red, 30%) !important;
+					}
+					&.Palaisblau > .color {
+						background: lighten(blue, 30%) !important;
+					}
+				}
+
+				&.item-column {
+					@include flexbox(column);
+				}
+
 				.cmd {
 					@include size(30px, 100%);
 					position: relative;
@@ -281,6 +337,14 @@
 					margin: 0 20px;
 					@include flex-value(1);
 					@include flex-order(3);
+				}
+
+				.item-price {
+					position: absolute;
+					right: 20px;
+					bottom: 20px;
+					@include flex-order(4);
+					text-align: right;
 				}
 			}
 

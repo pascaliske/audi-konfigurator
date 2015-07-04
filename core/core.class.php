@@ -43,6 +43,21 @@ class core {
 		}
 	}
 
+	// escape strings to css class name conventions
+	public function escapeClass($string=null) {
+		if($string != null) {
+			// change 'ß' to 'ss'
+			$string = ereg_replace('ä', 'ae', $string);
+			$string = ereg_replace('ö', 'oe', $string);
+			$string = ereg_replace('ü', 'ue', $string);
+
+			// change german 'ä,ö,ü' to 'ae,oe,ue'
+			$string = ereg_replace('ß', 'ss', $string);
+
+			return $string;
+		}
+	}
+
 	// debug functions
 	public function error($errno, $error) {
 		if($errno !== null) {
